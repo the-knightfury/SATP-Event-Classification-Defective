@@ -187,7 +187,7 @@ print(year)
 dict = {'id':id_list, 'is_relevant':relevance, 'target':target_list, 'source': source, 'action':action, 'action_type' : type_list, 'location':locations, 'date':dates,'country':country, 'year':year, 'news':text_list}
 df = pd.DataFrame(dict)
 print(df)
-df.to_csv('TagtogData/'+p+'.csv', header=True, index=False)
+df.to_csv('Data_TagTog_Annotated/'+p+'.csv', header=True, index=False)
 
 
 ###############################################################################################################################################
